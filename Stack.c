@@ -86,14 +86,6 @@ Node_t *newNode(const char *value, Node_t *next)
     }
     else
     {
-        // printf("%s %s\n","val =", node->value);
-        // if(node->next!=NULL){
-        //    printf("%s %s\n\n","next =", node->next->value);
-        // }
-        // if(node->next->next!=NULL){
-        //    printf("%s %s\n\n","next next=", node->next->next->value);
-        // }
-
         return node;
     }
 }
